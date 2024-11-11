@@ -13,7 +13,7 @@ function ReasonSection() {
           </h2>
           <PrimaryButton label="Daftar sekarang" />
         </div>
-        <p className="text-gray-300 mb-4">
+        <p className="text-gray-300 mb-8">
           Kami berkomitmen untuk memberikan pengalaman belajar yang seru,
           efektif, dan mendalam bagi anak-anak Anda. Di Tiny Techfast Club, kami
           percaya bahwa setiap anak berhak memiliki akses ke keterampilan coding

@@ -7,11 +7,11 @@ function Hero() {
   return (
     <section className="flex flex-col md:flex-row items-start justify-left p-8 bg-white max-w-7xl mx-auto">
       <div className="text-center md:text-left max-w-lg justify-left">
-        <h1 className="text-6xl md:text-6xl font-bold mb-4 text-left">
+        <h1 className="text-6xl md:text-6xl font-bold mb-4">
           Welcome to <br />
           Tiny Tech <span className="text-purple-700">Club</span>.
         </h1>
-        <h2 className="text-gray-500 text-lg md:text-xl font-semibold mb-4 text-left">
+        <h2 className="text-gray-500 text-lg md:text-xl font-semibold mb-4">
           Small techies, big dreams{" "}
           <span role="img" aria-label="rocket">
             🚀

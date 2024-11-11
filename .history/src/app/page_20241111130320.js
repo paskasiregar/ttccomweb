@@ -10,13 +10,11 @@ import ReasonSection from "@/components/reason";
 export default function Home() {
   return (
     <main className="w-full">
-      <section>
-        <div className="p-2">
-          <Header />
-          <section className="mt-8">
-            <BaitSection />
-          </section>
-        </div>
+      <section classname="p-200">
+        <Header />
+        <section className="mt-8">
+          <BaitSection />
+        </section>
         <section className="mt-16">
           <Hero />
         </section>

@@ -4,9 +4,9 @@ import "@/app/common.css"; // Add global styles if needed
 
 function Product() {
   return (
-    <section className="max-w-7xl mx-auto p-2">
-      <h2 className="text-6xl font-bold p-4">Produk kami</h2>
-      <p className="text-gray-500 mb-4 p-4">
+    <section className="max-w-7xl mx-auto">
+      <h2 className="text-6xl font-bold mb-2">Produk kami</h2>
+      <p className="text-gray-500 mb-8">
         Jalur belajar untuk semua usia, mulai dari 4-16 tahun.
       </p>
 

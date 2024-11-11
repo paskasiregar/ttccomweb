@@ -11,12 +11,10 @@ export default function Home() {
   return (
     <main className="w-full">
       <section>
-        <div className="p-2">
-          <Header />
-          <section className="mt-8">
-            <BaitSection />
-          </section>
-        </div>
+        <Header className="p-2" />
+        <section className="mt-8">
+          <BaitSection />
+        </section>
         <section className="mt-16">
           <Hero />
         </section>

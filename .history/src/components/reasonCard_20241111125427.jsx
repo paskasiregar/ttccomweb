@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function ReasonCard({ icon, title, description }) {
   return (
-    <div className="justify-center p-2 md:p-2 sm:p-2 bg-white rounded-xl">
+    <div className="justify-center  bg-white rounded-xl">
       <div className="flex items-center mb-4">
         <div className="px-4 py-3 bg-yellow-300 rounded-full text-md">
           {icon}

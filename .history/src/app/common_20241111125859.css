@@ -14,16 +14,18 @@
 
 .button:hover {
     background-color: #5a1bb0;
-
+    /* Hover color */
 }
 
-
+/* Reusable icon style */
 .icon {
     margin-left: 8px;
     width: 16px;
+    /* Adjust as needed */
     height: 16px;
 }
 
+/* Layout styling */
 .flex-container {
     display: flex;
     justify-content: space-between;

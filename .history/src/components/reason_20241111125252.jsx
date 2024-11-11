@@ -5,21 +5,21 @@ import "@/app/common.css"; // Add global styles if needed
 
 function ReasonSection() {
   return (
-    <section className="bg-gray-900 text-white p-4 md:p-16">
+    <section className="bg-gray-900 text-white p-8 md:p-16">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
           <h2 className="text-4xl font-bold mb-4 md:mb-0">
             Kenapa pilih kami?
           </h2>
           <PrimaryButton label="Daftar sekarang" />
         </div>
-        <p className="text-gray-300 mb-4">
+        <p className="text-gray-300 mb-12">
           Kami berkomitmen untuk memberikan pengalaman belajar yang seru,
           efektif, dan mendalam bagi anak-anak Anda. Di Tiny Techfast Club, kami
           percaya bahwa setiap anak berhak memiliki akses ke keterampilan coding
           yang akan membentuk masa depan mereka.
         </p>
-        <div className="grid grid-cols-3 gap-4 md:gap-2 md:mb-2 mb-4">
+        <div className="grid grid-cols-3 gap-4 md:gap-2 mb-4">
           <ReasonCard
             icon={
               <span role="img" aria-label="fun icon">

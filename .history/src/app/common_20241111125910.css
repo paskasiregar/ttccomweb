@@ -24,6 +24,7 @@
     height: 16px;
 }
 
+/* Layout styling */
 .flex-container {
     display: flex;
     justify-content: space-between;
