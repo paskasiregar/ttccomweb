@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dm-sans-custom {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Container class for centering content */
+.max-w-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+  /* Optional padding for spacing on smaller screens */
+}

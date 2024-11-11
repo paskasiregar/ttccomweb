@@ -24,7 +24,10 @@ function Header() {
         />
       </div>
       <div className="hidden md:flex">
-        <PrimaryButton label="Hubungi kami" />
+        <PrimaryButton
+          label="Hubungi kami"
+          onClick={() => alert("Button clicked!")}
+        />
       </div>
     </header>
   );

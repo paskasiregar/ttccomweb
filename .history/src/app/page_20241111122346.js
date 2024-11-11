@@ -1,5 +1,4 @@
 import BaitSection from "@/components/bait";
-import Contact from "@/components/contact";
 import FlexibleSection from "@/components/flexible";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
@@ -10,26 +9,21 @@ import ReasonSection from "@/components/reason";
 export default function Home() {
   return (
     <main className="w-full">
-      <Header />
-      <section className="mt-8">
+      <div className="">
+        <Header />
+        <br />
         <BaitSection />
-      </section>
-      <section className="mt-16">
+        <br />
         <Hero />
-      </section>
-      <section className="mt-16">
+        <br />
         <Product />
-      </section>
-      <section className="mt-16">
+        <br />
         <ReasonSection />
-      </section>
-      <section className="mt-16">
+        <br />
         <FlexibleSection />
-      </section>
-      <section className="mt-16">
-        <Contact />
-      </section>
-      <Footer />
+        <br />
+        <Footer />
+      </div>
     </main>
   );
 }
