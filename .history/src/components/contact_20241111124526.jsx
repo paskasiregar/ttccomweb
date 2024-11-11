@@ -53,7 +53,7 @@ function Contact() {
 
           <button
             type="submit"
-            className="justify-center button bg-purple-600 text-white rounded-lg py-3 hover:bg-purple-700 transition"
+            className="button bg-purple-600 text-white rounded-lg py-3 hover:bg-purple-700 transition"
           >
             Send
           </button>
