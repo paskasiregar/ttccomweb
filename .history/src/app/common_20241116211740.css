@@ -1,0 +1,61 @@
+/* Primary Button */
+.button {
+  background-color: #6b23dc; /* Primary color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #5a1bb0; /* Hover color */
+}
+
+/* Secondary Button */
+.secondary-button {
+  background-color: #ffffff; /* White background */
+  color: #6b23dc; /* Text color */
+  padding: 10px 20px;
+  border: 2px solid #6b23dc; /* Border with primary color */
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.secondary-button:hover {
+  background-color: #6b23dc; /* Primary background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Icon Style */
+.icon {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Title */
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Highlight Text */
+.highlight {
+  color: #6b23dc; /* Primary highlight color */
+}
