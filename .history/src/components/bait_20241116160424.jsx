@@ -15,7 +15,7 @@ function BaitSection() {
         <h2 className="text-lg md:text-2xl font-normal">IT di mana-mana!</h2>
       </div>
 
-      <div className="mt-4 grid gap-2 md:gap-4 sm:gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-4 grid gap-2 md:gap-2 sm:gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <BaitCard
           icon={
             <span role="img" aria-label="IT icon">
