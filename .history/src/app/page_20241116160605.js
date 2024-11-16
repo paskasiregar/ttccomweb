@@ -1,6 +1,6 @@
 import BaitSection from "@/components/bait";
 import Contact from "@/components/contact";
-// import FlexibleSection from "@/components/flexible";
+import FlexibleSection from "@/components/flexible";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
