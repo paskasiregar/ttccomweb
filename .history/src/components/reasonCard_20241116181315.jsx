@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 
 function ReasonCard({ icon, title, description }) {
   return (
-    <div className="justify-center p-4 md:p-4 sm:p-4 bg-white rounded-xl">
+    <div className="justify-center p-2 md:p-2 sm:p-2 bg-white rounded-xl">
       <div className="flex items-center mb-4">
         <div className="px-4 py-3 bg-yellow-300 rounded-full text-md">
           {icon}
         </div>
       </div>
-      <h3 className="font-normal text-md mb-2 text-gray-600 text-sm sm:text-xl">
+      <h3 className="font-normal text-md mb-2 text-gray-600 text-xl">
         {title}
       </h3>
     </div>

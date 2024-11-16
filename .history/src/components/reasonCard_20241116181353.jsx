@@ -9,7 +9,7 @@ function ReasonCard({ icon, title, description }) {
           {icon}
         </div>
       </div>
-      <h3 className="font-normal text-md mb-2 text-gray-600 text-sm sm:text-xl">
+      <h3 className="font-normal text-md mb-2 text-gray-600 text-xl">
         {title}
       </h3>
     </div>
