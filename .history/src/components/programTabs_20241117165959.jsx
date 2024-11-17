@@ -9,11 +9,7 @@ function ProgramTabs({ cards }) {
     { id: "offline", label: "Kelas Offline" },
   ];
 
-  const handleTabClick = (tabId) => {
-    if (tabId !== "offline") {
-      setActiveTab(tabId);
-    }
-  };
+  const handleTabClick = (tabId) => setActiveTab(tabId);
 
   return (
     <div className="w-full">
@@ -22,7 +18,7 @@ function ProgramTabs({ cards }) {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`py-2 px-4 rounded-full flex items-center ${
+            className={`py-2 px-4 rounded-full ${
               activeTab === tab.id
                 ? "bg-black text-white"
                 : "bg-gray-200 text-gray-600"
@@ -42,17 +38,11 @@ function ProgramTabs({ cards }) {
 
       {/* Tab Content */}
       <div>
-        {activeTab === "online" && cards.length > 0 ? (
+        {activeTab === "online" && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {cards.map((card, index) => (
               <ClassCard key={index} {...card} />
             ))}
-          </div>
-        ) : (
-          <div className="text-center text-gray-500">
-            {activeTab === "online" && cards.length === 0
-              ? "Tidak ada program yang tersedia."
-              : "Tab ini belum tersedia."}
           </div>
         )}
       </div>

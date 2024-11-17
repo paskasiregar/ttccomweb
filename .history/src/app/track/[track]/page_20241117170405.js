@@ -15,28 +15,28 @@ export default function TrackPage() {
       description:
         "Kenalkan coding ke anak-anak dengan aktivitas seru dan edukatif. Cocok banget buat usia 4-5 tahun untuk membangun kemampuan berpikir logis.",
       backgroundImage:
-        "https://helenrosenzweig.com/wp-content/uploads/2022/10/raising-kids-screen-time.jpg",
+        "https://www.shutterstock.com/image-vector/border-frame-design-kids-technology-600nw-2112335390.jpg",
     },
     "visual-coding": {
       title: "Visual Coding Track",
       description:
         "Belajar konsep pemrograman visual pakai ScratchJr. Cocok buat anak usia 6-7 tahun untuk bikin cerita dan proyek seru sambil belajar coding dasar.",
       backgroundImage:
-        "https://thehub.ca/wp-content/uploads/2022/10/CP1676640_web-960x540.jpg",
+        "https://images.unsplash.com/photo-1573164574393-b9b12c3ff9c6",
     },
     "web-development": {
       title: "Web Development Track",
       description:
         "Belajar dasar-dasar pengembangan web dengan HTML, CSS, dan JavaScript. Cocok untuk usia 8-12 tahun untuk membuat proyek web mini yang menarik.",
       backgroundImage:
-        "https://parents-together.org/wp-content/uploads/2024/10/FatCamera_Getty-Images-Signature_Young-students-on-laptops-770x515.jpg",
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
     },
     "basic-programming": {
       title: "Basic Programming Track",
       description:
         "Pelajari konsep pemrograman inti dengan Python dan JavaScript. Dirancang untuk usia 13-16 tahun untuk membangun aplikasi dunia nyata dan kemampuan pemecahan masalah.",
       backgroundImage:
-        "https://i0.wp.com/www.appleslicesllc.com/wp-content/uploads/2023/09/Busy-Parent-Support-from-an-Educator-09.png?resize=1024%2C512&ssl=1",
+        "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
     },
   };
 

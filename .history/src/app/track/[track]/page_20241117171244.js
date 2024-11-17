@@ -36,7 +36,7 @@ export default function TrackPage() {
       description:
         "Pelajari konsep pemrograman inti dengan Python dan JavaScript. Dirancang untuk usia 13-16 tahun untuk membangun aplikasi dunia nyata dan kemampuan pemecahan masalah.",
       backgroundImage:
-        "https://i0.wp.com/www.appleslicesllc.com/wp-content/uploads/2023/09/Busy-Parent-Support-from-an-Educator-09.png?resize=1024%2C512&ssl=1",
+        "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
     },
   };
 

@@ -15,28 +15,28 @@ export default function TrackPage() {
       description:
         "Kenalkan coding ke anak-anak dengan aktivitas seru dan edukatif. Cocok banget buat usia 4-5 tahun untuk membangun kemampuan berpikir logis.",
       backgroundImage:
-        "https://helenrosenzweig.com/wp-content/uploads/2022/10/raising-kids-screen-time.jpg",
+        "https://www.shutterstock.com/image-vector/border-frame-design-kids-technology-600nw-2112335390.jpg", // Replace with a relevant Creative Coding image
     },
     "visual-coding": {
       title: "Visual Coding Track",
       description:
         "Belajar konsep pemrograman visual pakai ScratchJr. Cocok buat anak usia 6-7 tahun untuk bikin cerita dan proyek seru sambil belajar coding dasar.",
       backgroundImage:
-        "https://thehub.ca/wp-content/uploads/2022/10/CP1676640_web-960x540.jpg",
+        "https://images.unsplash.com/photo-1573164574393-b9b12c3ff9c6", // Replace with a relevant Visual Coding image
     },
     "web-development": {
       title: "Web Development Track",
       description:
         "Belajar dasar-dasar pengembangan web dengan HTML, CSS, dan JavaScript. Cocok untuk usia 8-12 tahun untuk membuat proyek web mini yang menarik.",
       backgroundImage:
-        "https://parents-together.org/wp-content/uploads/2024/10/FatCamera_Getty-Images-Signature_Young-students-on-laptops-770x515.jpg",
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c", // Replace with a relevant Web Development image
     },
     "basic-programming": {
       title: "Basic Programming Track",
       description:
         "Pelajari konsep pemrograman inti dengan Python dan JavaScript. Dirancang untuk usia 13-16 tahun untuk membangun aplikasi dunia nyata dan kemampuan pemecahan masalah.",
       backgroundImage:
-        "https://i0.wp.com/www.appleslicesllc.com/wp-content/uploads/2023/09/Busy-Parent-Support-from-an-Educator-09.png?resize=1024%2C512&ssl=1",
+        "https://images.unsplash.com/photo-1517433456452-f9633a875f6f", // Replace with a relevant Basic Programming image
     },
   };
 
@@ -47,7 +47,7 @@ export default function TrackPage() {
         duration: "30 menit",
         sessions: "2 sesi",
         description:
-          "Kenalkan konsep coding dasar melalui aktivitas bermain yang seru.",
+          "Siswa akan diperkenalkan dengan konsep dasar pemrograman melalui permainan interaktif yang seru dan edukatif. Aktivitas ini membantu membangun fondasi logika pemrograman sejak dini.",
         tools: "iPad / Tab",
       },
       {
@@ -55,94 +55,158 @@ export default function TrackPage() {
         duration: "30 menit",
         sessions: "2 sesi",
         description:
-          "Pelajari arah dan logika sederhana dengan Bee-Bots yang menyenangkan.",
+          "Siswa akan belajar mengontrol arah dan logika sederhana menggunakan Bee-Bots. Aktivitas ini mengasah kemampuan berpikir logis dan keterampilan pemecahan masalah.",
         tools: "iPad / Tab, Komputer",
       },
       {
-        title: "Pattern Recognition and Sequencing",
+        title: "Pattern recognition and sequencing",
         duration: "30 menit",
         sessions: "2 sesi",
-        description: "Asah kemampuan mengenali pola dan urutan dengan mudah.",
+        description:
+          "Siswa akan mempelajari cara mengenali pola dan urutan logis melalui tugas-tugas menarik. Aktivitas ini meningkatkan kemampuan observasi dan pengelompokan pola.",
         tools: "iPad / Tab, Komputer",
       },
       {
-        title: "Simple Coding Games and Collaborative Tasks",
+        title: "Simple coding games and collaborative tasks",
         duration: "30 menit",
         sessions: "2 sesi",
-        description: "Main game coding sederhana dan bekerja sama dalam tim.",
+        description:
+          "Siswa akan bermain game coding sederhana dan menyelesaikan tugas kolaboratif untuk memahami dasar-dasar pemrograman sambil bekerja sama dalam tim.",
         tools: "iPad / Tab, Komputer",
       },
     ],
     "visual-coding": [
       {
-        title: "Introduction to ScratchJr and Navigating the Interface",
+        title: "Introduction to ScratchJr and navigating the interface",
         duration: "45 menit",
         sessions: "2 sesi",
         description:
-          "Mulai petualangan codingmu dengan ScratchJr dan animasi seru.",
+          "Kenalan dengan ScratchJr dan mulai bikin cerita animasi pertamamu!",
         tools: "Laptop / Komputer",
       },
       {
-        title: "Building Characters and Creating Movements",
+        title: "Building characters and creating movements",
         duration: "45 menit",
         sessions: "2 sesi",
-        description: "Hidupkan karaktermu dengan gerakan dan animasi menarik.",
+        description:
+          "Hidupkan karaktermu dan buat mereka bergerak dengan mudah!",
         tools: "Tablet / Komputer",
       },
       {
-        title: "Storytelling with Coding",
+        title:
+          "Storytelling with coding, creating a beginning, middle, and end",
         duration: "45 menit",
         sessions: "2 sesi",
-        description: "Buat cerita interaktif dengan awal, tengah, dan akhir.",
+        description:
+          "Buat cerita seru dengan alur awal, tengah, dan akhir yang menarik.",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Adding sounds and interactivity",
+        duration: "45 menit",
+        sessions: "2 sesi",
+        description:
+          "Tambahkan suara dan interaksi untuk membuat cerita jadi lebih hidup!",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Final project: Designing an animated story",
+        duration: "45 menit",
+        sessions: "2 sesi",
+        description:
+          "Buat proyek akhir: cerita animasi keren dari imajinasimu sendiri!",
         tools: "Tablet / Komputer",
       },
     ],
     "web-development": [
       {
-        title: "Introduction to Scratch: Motion, Looks, and Sounds",
+        title: "Introduction to Scratch: Motion, looks, and sounds",
         duration: "60 menit",
         sessions: "3 sesi",
         description:
-          "Kenalan dengan Scratch dan mulai buat animasi dan efek suara.",
+          "Pelajari dasar-dasar Scratch untuk membuat karakter bergerak dan bersuara.",
         tools: "Laptop / Komputer",
       },
       {
-        title: "Control Blocks and Loops",
+        title: "Control blocks and loops",
         duration: "60 menit",
         sessions: "2 sesi",
         description:
-          "Gunakan blok kontrol dan loop untuk aksi keren di Scratch.",
+          "Gunakan blok kontrol dan loop untuk menciptakan aksi yang keren!",
         tools: "Tablet / Komputer",
       },
       {
-        title: "Building Interactive Games with Scratch",
+        title: "Robotics with Ozobot: Coding paths and commands",
+        duration: "60 menit",
+        sessions: "3 sesi",
+        description:
+          "Program robot Ozobot untuk mengikuti jalur dan perintahmu.",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Building interactive games with Scratch",
         duration: "60 menit",
         sessions: "2 sesi",
-        description: "Buat game interaktif yang seru dengan Scratch.",
+        description: "Buat game interaktif menggunakan Scratch. Seru banget!",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Capstone project: A collaborative coding challenge",
+        duration: "60 menit",
+        sessions: "2 sesi",
+        description:
+          "Kerjakan tantangan coding bersama teman untuk proyek akhir.",
         tools: "Tablet / Komputer",
       },
     ],
     "basic-programming": [
       {
         title:
-          "Python Basics: Variables, Data Types, and Simple Math Operations",
+          "Python basics: Variables, data types, and simple math operations",
         duration: "90 menit",
         sessions: "3 sesi",
-        description: "Pelajari Python dasar untuk logika coding yang kuat.",
+        description:
+          "Kenalan sama Python dan belajar hitungan dasar dengan kode.",
         tools: "Laptop / Komputer",
       },
       {
-        title: "Loops, Conditionals, and Functions",
+        title: "Loops, conditionals, and functions",
         duration: "90 menit",
         sessions: "2 sesi",
-        description: "Buat kode cerdas dengan loop dan fungsi Python.",
+        description:
+          "Pelajari cara membuat kode yang cerdas dengan loop dan kondisi.",
         tools: "Tablet / Komputer",
       },
       {
-        title: "Creating a Personal Website",
+        title: "Web development: HTML and CSS basics",
+        duration: "90 menit",
+        sessions: "2 sesi",
+        description:
+          "Bangun halaman web pertamamu dengan HTML dan CSS. Seru kan?",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Creating a personal website project",
         duration: "90 menit",
         sessions: "3 sesi",
-        description: "Bangun website pribadi untuk menunjukkan kreativitasmu.",
+        description:
+          "Buat website pribadi dari nol dan tunjukkan kreativitasmu!",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title: "Introduction to JavaScript and interactive web elements",
+        duration: "90 menit",
+        sessions: "2 sesi",
+        description: "Tambah elemen interaktif ke websitemu dengan JavaScript.",
+        tools: "Tablet / Komputer",
+      },
+      {
+        title:
+          "Final project: A simple app or website with integrated features",
+        duration: "90 menit",
+        sessions: "2 sesi",
+        description:
+          "Selesaikan proyek akhir dengan fitur-fitur keren yang kamu pelajari.",
         tools: "Tablet / Komputer",
       },
     ],

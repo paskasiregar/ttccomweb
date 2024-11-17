@@ -1,23 +1,16 @@
 import React from "react";
 
-export default function TrackTemplate({
-  title,
-  description,
-  backgroundImage,
-  children,
-}) {
+export default function TrackTemplate({ title, description, children }) {
   return (
     <div>
       {/* Hero Section */}
-      <div
-        className="relative h-screen w-full"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+      <div className="relative h-screen w-full">
+        <img
+          src="https://www.shutterstock.com/image-vector/border-frame-design-kids-technology-600nw-2112335390.jpg"
+          alt="Background"
+          className="absolute inset-0 w-full h-full object-cover filter blur-sm"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <h1 className="text-6xl text-white font-bold p-8">{title}</h1>
           <p className="text-xl text-white mt-4 p-8">{description}</p>
