@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../assets/logo-3.png";
-import Link from "next/link";
 
 function Footer() {
   return (
