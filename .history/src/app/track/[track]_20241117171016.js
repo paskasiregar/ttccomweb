@@ -19,7 +19,7 @@ export default function TrackTemplate({
       >
         <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <h1 className="text-5xl text-white font-bold p-8">{title}</h1>
+          <h1 className="text-6xl text-white font-bold p-8">{title}</h1>
           <p className="text-xl text-white mt-4 p-8">{description}</p>
         </div>
       </div>
